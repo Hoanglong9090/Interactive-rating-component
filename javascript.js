@@ -4,7 +4,7 @@ if (sta.length > 0) {
   sta.forEach(item => item.addEventListener('click', function() {
     item.style.backgroundColor = 'hsl(25, 97%, 53%)';
     item.style.color = 'white';
-    num = item.value;
+    num = item.innerText;
   }));
 }
 var sub = document.getElementById('btn-submit');
