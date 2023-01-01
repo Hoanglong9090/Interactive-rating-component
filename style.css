@@ -25,6 +25,13 @@ p {
   display: none;
   text-align: center;
 }
+.ratings {
+  color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  padding: 0.3em 1em 0.3em 1em;
+  background-color:hsl(215, 11%, 22%) ;
+  display: inline-block;
+}
 #container-rating {
   display: table;
 
